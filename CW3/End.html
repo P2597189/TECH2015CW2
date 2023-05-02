@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="feedback">
+
+<h1>Thank you for Reading!</h1>
+<p>How did i do?</p>
+
+<p>Leave feedback below</p>
+
+
+    <form action="/action_page.php">
+
+        <label for="Title">Title</label>
+        <select id="Title" name="Title">
+        <option value="Please Select...">Please Select...</option>
+        <option value="Mr">Mr</option>
+        <option value="Mrs">Mrs</option>
+        <option value="Miss">Miss</option>
+        <option value="Ms">Ms</option>
+        <option value="Other">Other</option>
+        <option value="Prefer not to say">prefer not to say</option>
+        </select>
+
+        <!--This part of the contact form is the title part of someones name. In this element
+i used a select ID element to create the the box needed for the user to input their answer.
+
+the option value element was used multiplke times on this occasion to give the user multiple
+answers that applies to them. this was done individually for each title.
+-->
+
+
+
+        <br><br><br>
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Type Here..">
+     <br><br><br>
+     
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Type Here..">
+     
+     <br><br><br>
+     
+        <label for="What did you like about the story?">What did you like about the story?</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+     <br><br><br>
+     
+        <label for="Who would you like to see next?">Who would you like to see next?</label>
+        <input type="text" id="Who would you like to see next?" name="Who would you like to see next?" placeholder="Type Here..">
+     
+     <br><br><br>
+
+        <label for="Whats your favourite Jordan shoe and why?">Whats your favourite Jordan shoe and why?</label>
+        <br><br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+     
+
+<!-- the following code above was for the text and answer boxes in the feedback form.
+the element tag 'input type' is important as it creates the small area for the user
+to type in the information needed to fill out the form.
+-->
+
+
+     <!--This part of the feedback form is the same as the other text input. The only difference
+     with this is that it the text box for this requires a long answer. To allow this, a small
+     style element was included here which was the height of the text box.
+     -->
+     
+     <br><br><br>
+      <input type="submit" value="Submit">
+     
+     <!--the last part of the contact form is the submit button at the end of all online forms.
+     To do this, a simple input type names submit was put to create the button. 
+     -->
+     </div>
+
+    </div>
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <a href="Base.html" class="previous">&laquo; Previous</a>
+        <a href="Jordan1.html" class="next">Next &raquo;</a>
+</body>
+</html>
